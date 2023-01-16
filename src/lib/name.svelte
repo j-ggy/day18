@@ -1,5 +1,5 @@
 <script lang="ts">
-    let name = "";
+    let name: string = "";
 </script>
 
 <p>{name}</p>

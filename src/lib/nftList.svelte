@@ -7,14 +7,12 @@
     };
 
     let nfts: NFT[] = [];
-    let count =0;
 
     onMount(() => {
         setInterval(() => {
-            count ++;
             nfts.push({
-                imageURL: ("image #" + count),
-                name: ("NFT #" + count)
+                imageURL: ("image #" + nfts.length),
+                name: ("NFT #" + nfts.length)
             });
             nfts = nfts;
         }, 500);

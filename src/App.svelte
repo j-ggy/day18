@@ -1,13 +1,12 @@
 <script lang="ts">
   import svelteLogo from './assets/svelte.svg'
-  import AlertUser from './lib/alertUser.svelte';
-  import Name from './lib/name.svelte'
-  import NftList from './lib/nftList.svelte';
+  import AlertUser from './lib/AlertUser.svelte';
+  import Name from './lib/Name.svelte'
+  import NftList from './lib/NftList.svelte';
 </script>
 
 <main>
   <div>
-    <p>{name}</p>
     <a href="https://vitejs.dev" target="_blank" rel="noreferrer"> 
       <img src="/vite.svg" class="logo" alt="Vite Logo" />
     </a>
